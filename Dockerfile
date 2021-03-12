@@ -1,7 +1,7 @@
-FROM LEGENDXOP/LEGEND-BOT:alpine
+FROM Superior-User-Bot/Superior-Userbot-Telegram:alpine
 
 #clonning repo 
-RUN git clone https://github.com/LEGENDXOP/LEGEND-BOT.git /root/userbot
+RUN git clone https://github.com/Superior-User-Bot/Superior-Userbot-Telegram /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
